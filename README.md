@@ -60,8 +60,8 @@ Deployed using Railway for frontend and backend with a managed database and envi
 ---
 
 ## 📸 Screenshots
-![Dashboard](./screenshots/Dashboard.png)
-![Create](./screenshots/Create.png)
+![Dashboard](./Screenshots/Dashboard.png)
+![Create](./Screenshots/Create.png)
 
 ---
 
