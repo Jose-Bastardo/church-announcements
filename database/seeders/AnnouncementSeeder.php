@@ -12,18 +12,17 @@ class AnnouncementSeeder extends Seeder
     {
         $user = User::where('email', 'demo@test.com')->first();
 
-        if (!$user) {
+        if (! $user) {
             return;
         }
 
-        Announcement::insert([
+        $announcements = [
             [
                 'title' => 'Sunday Service Time Update',
                 'body' => 'Starting this Sunday, our main service will begin at 10:30 AM.',
                 'status' => 'published',
                 'audience' => 'all',
                 'published_at' => now(),
-                'user_id' => $user->id,
             ],
             [
                 'title' => 'Youth Group Meeting',
@@ -31,7 +30,6 @@ class AnnouncementSeeder extends Seeder
                 'status' => 'published',
                 'audience' => 'youth',
                 'published_at' => now(),
-                'user_id' => $user->id,
             ],
             [
                 'title' => 'Volunteer Signup Open',
@@ -39,7 +37,6 @@ class AnnouncementSeeder extends Seeder
                 'status' => 'draft',
                 'audience' => 'members',
                 'published_at' => null,
-                'user_id' => $user->id,
             ],
             [
                 'title' => 'Church Picnic',
@@ -47,7 +44,6 @@ class AnnouncementSeeder extends Seeder
                 'status' => 'published',
                 'audience' => 'all',
                 'published_at' => now()->addDays(2),
-                'user_id' => $user->id,
             ],
             [
                 'title' => 'Maintenance Notice',
@@ -55,8 +51,22 @@ class AnnouncementSeeder extends Seeder
                 'status' => 'archived',
                 'audience' => 'all',
                 'published_at' => now()->subDays(3),
-                'user_id' => $user->id,
             ],
-        ]);
+        ];
+
+        foreach ($announcements as $announcement) {
+            Announcement::updateOrCreate(
+                [
+                    'user_id' => $user->id,
+                    'title' => $announcement['title'],
+                ],
+                [
+                    'body' => $announcement['body'],
+                    'status' => $announcement['status'],
+                    'audience' => $announcement['audience'],
+                    'published_at' => $announcement['published_at'],
+                ]
+            );
+        }
     }
 }
