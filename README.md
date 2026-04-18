@@ -6,7 +6,7 @@ A full-stack web application for managing community or church announcements. Use
 
 ## Demo
 
-🚀 **Live Demo:** https://your-app.up.railway.app    
+🚀 **Live Demo:** https://church-announcements.up.railway.app/   
 🔐 **Demo Login:**    
 Email: demo@test.com   
 Password: Demo.Password1  
