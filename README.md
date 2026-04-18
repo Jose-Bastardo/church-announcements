@@ -208,7 +208,6 @@ http://localhost:8000
 * Pagination
 * Role-based access control
 * Notifications
-* Deployment (AWS / VPS)
 * Unit and feature tests
 * API versioning
 
@@ -216,9 +215,9 @@ http://localhost:8000
 
 ## Author
 
-Jose Bastardo
-LinkedIn: https://www.linkedin.com/in/josebastardo
-GitHub: https://github.com/Jose-bastardo
+### Jose Bastardo  
+LinkedIn: https://www.linkedin.com/in/josebastardo  
+GitHub: https://github.com/Jose-bastardo  
 
 ---
 
