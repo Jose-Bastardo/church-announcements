@@ -4,6 +4,15 @@ A full-stack web application for managing community or church announcements. Use
 
 ---
 
+## Demo
+
+🚀 **Live Demo:** https://your-app.up.railway.app    
+🔐 **Demo Login:**    
+Email: demo@test.com   
+Password: Demo.Password1  
+
+---
+
 ## Features
 
 * User authentication (register/login)
@@ -42,6 +51,17 @@ A full-stack web application for managing community or church announcements. Use
 * Git
 * Composer
 * npm
+
+---
+
+## Deployment
+Deployed using Railway for frontend and backend with a managed database and environment variables.
+
+---
+
+## 📸 Screenshots
+![Dashboard](./screenshots/Dashboard.png)
+![Create](./screenshots/Create.png)
 
 ---
 
