@@ -1,17 +1,15 @@
 # Church Announcements Dashboard
 
-A full-stack web application for managing community or church announcements. Users can create, edit, delete, search, and filter announcements through a modern Vue-powered interface backed by a Laravel API.
-
----
+A full-stack web application for managing community or church announcements. Users can create, edit, delete, search, and filter announcements through a modern Vue-powered interface backed by a Laravel API.  
 
 ## Demo
 
 **Live Demo:** https://church-announcements.up.railway.app/   
+
 **Demo Login:**    
 Email: demo@test.com   
 Password: Demo.Password1  
 
----
 
 ## Features
 
@@ -23,47 +21,39 @@ Password: Demo.Password1
 * Filter announcements by status (draft, published, archived)
 * Responsive UI with Tailwind CSS
 * Form validation and error handling
-* Clean, reusable Vue components
+* Clean, reusable Vue components  
 
----
 
-## Tech Stack
+## Tech Stack   
 
-### Frontend
-
+### Frontend   
 * Vue 3 (Composition API)
 * Inertia.js
 * Tailwind CSS
 * Vite
 
 ### Backend
-
 * Laravel
 * PHP
 * Eloquent ORM
 
 ### Database
-
 * MySQL
 
 ### Tools
-
 * Git
 * Composer
 * npm
 
----
 
 ## Deployment
 Deployed using Railway for frontend and backend with a managed database and environment variables.
 
----
 
 ## 📸 Screenshots
 ![Dashboard](./Screenshots/Dashboard.png)
 ![Create](./Screenshots/Create.png)
 
----
 
 ## Application Architecture
 
@@ -77,7 +67,6 @@ Eloquent Models
 MySQL / MariaDB Database
 ```
 
----
 
 ## CRUD Functionality
 
@@ -89,7 +78,6 @@ MySQL / MariaDB Database
 | Update announcement    | PUT    | /announcements/{id}      |
 | Delete announcement    | DELETE | /announcements/{id}      |
 
----
 
 ## Project Structure
 
@@ -117,21 +105,16 @@ database/
   migrations/
 ```
 
----
 
 ## Getting Started
 
 ### Prerequisites
-
 * PHP
 * Composer
 * Node.js (v20+)
 * MySQL
 
----
-
 ### Installation
-
 1. Clone the repository
 
 ```
@@ -201,7 +184,6 @@ Visit:
 http://localhost:8000
 ```
 
----
 
 ## Future Improvements
 
@@ -211,7 +193,6 @@ http://localhost:8000
 * Unit and feature tests
 * API versioning
 
----
 
 ## Author
 
@@ -219,8 +200,6 @@ http://localhost:8000
 LinkedIn: https://www.linkedin.com/in/josebastardo  
 GitHub: https://github.com/Jose-bastardo  
 
----
 
 ## Notes
-
 This project was built to practice full-stack development using Laravel and Vue, focusing on CRUD operations, authentication, and modern frontend integration with Inertia.js.
