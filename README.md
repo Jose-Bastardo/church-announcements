@@ -6,8 +6,8 @@ A full-stack web application for managing community or church announcements. Use
 
 ## Demo
 
-🚀 **Live Demo:** https://church-announcements.up.railway.app/   
-🔐 **Demo Login:**    
+**Live Demo:** https://church-announcements.up.railway.app/   
+**Demo Login:**    
 Email: demo@test.com   
 Password: Demo.Password1  
 
@@ -60,8 +60,8 @@ Deployed using Railway for frontend and backend with a managed database and envi
 ---
 
 ## 📸 Screenshots
-![Dashboard](./screenshots/Dashboard.png)
-![Create](./screenshots/Create.png)
+![Dashboard](./Screenshots/Dashboard.png)
+![Create](./Screenshots/Create.png)
 
 ---
 
@@ -208,7 +208,6 @@ http://localhost:8000
 * Pagination
 * Role-based access control
 * Notifications
-* Deployment (AWS / VPS)
 * Unit and feature tests
 * API versioning
 
@@ -216,9 +215,9 @@ http://localhost:8000
 
 ## Author
 
-Jose Bastardo
-LinkedIn: https://www.linkedin.com/in/josebastardo
-GitHub: https://github.com/Jose-bastardo
+### Jose Bastardo  
+LinkedIn: https://www.linkedin.com/in/josebastardo  
+GitHub: https://github.com/Jose-bastardo  
 
 ---
 
