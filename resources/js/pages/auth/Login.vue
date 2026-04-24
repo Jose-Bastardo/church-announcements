@@ -71,7 +71,7 @@ defineProps<{
                         Forgot password?
                     </TextLink>
                 </div>
-                <p class="text-[#929292] text-sm">Demo Password: Demo.Password1</p>
+                <p class="text-[#929292]">Demo Password: Demo.Password1</p>
                 <PasswordInput
                     id="password"
                     name="password"
