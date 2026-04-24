@@ -45,6 +45,7 @@ defineProps<{
         <div class="grid gap-6">
             <div class="grid gap-2">
                 <Label for="email">Email address</Label>
+                <p class="text-[#929292]">Demo Email: Demo@test.com</p>
                 <Input
                     id="email"
                     type="email"
@@ -70,6 +71,7 @@ defineProps<{
                         Forgot password?
                     </TextLink>
                 </div>
+                <p class="text-[#929292] text-sm">Demo Password: Demo.Password1</p>
                 <PasswordInput
                     id="password"
                     name="password"
