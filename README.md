@@ -4,7 +4,7 @@ A full-stack web application for managing community or church announcements. Use
 
 ## Demo
 
-**Live Demo:** https://church-announcements.up.railway.app/   
+**Live Demo:** https://church-announcements.josebastardo.com  
 
 **Demo Login:**    
 Email: demo@test.com   
